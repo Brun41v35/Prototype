@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EEEA2972BAF076500B70670 /* FeedImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEEA2962BAF076500B70670 /* FeedImageCell.swift */; };
 		7EF1CB112BAE6C6A000E2A70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF1CB102BAE6C6A000E2A70 /* AppDelegate.swift */; };
 		7EF1CB132BAE6C6A000E2A70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF1CB122BAE6C6A000E2A70 /* SceneDelegate.swift */; };
 		7EF1CB182BAE6C6A000E2A70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF1CB162BAE6C6A000E2A70 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7EEEA2962BAF076500B70670 /* FeedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageCell.swift; sourceTree = "<group>"; };
 		7EF1CB0D2BAE6C6A000E2A70 /* Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF1CB102BAE6C6A000E2A70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EF1CB122BAE6C6A000E2A70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,11 +63,12 @@
 				7EF1CB402BAE891F000E2A70 /* FeedViewController.swift */,
 				7EF1CB102BAE6C6A000E2A70 /* AppDelegate.swift */,
 				7EF1CB122BAE6C6A000E2A70 /* SceneDelegate.swift */,
+				7EF1CB422BAE8BC7000E2A70 /* FeedImageViewModel+PrototypeData.swift */,
+				7EEEA2962BAF076500B70670 /* FeedImageCell.swift */,
 				7EF1CB162BAE6C6A000E2A70 /* Main.storyboard */,
 				7EF1CB192BAE6C6C000E2A70 /* Assets.xcassets */,
 				7EF1CB1B2BAE6C6C000E2A70 /* LaunchScreen.storyboard */,
 				7EF1CB1E2BAE6C6C000E2A70 /* Info.plist */,
-				7EF1CB422BAE8BC7000E2A70 /* FeedImageViewModel+PrototypeData.swift */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				7EF1CB412BAE891F000E2A70 /* FeedViewController.swift in Sources */,
 				7EF1CB432BAE8BC7000E2A70 /* FeedImageViewModel+PrototypeData.swift in Sources */,
 				7EF1CB132BAE6C6A000E2A70 /* SceneDelegate.swift in Sources */,
+				7EEEA2972BAF076500B70670 /* FeedImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
