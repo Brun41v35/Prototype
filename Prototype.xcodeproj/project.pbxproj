@@ -13,6 +13,7 @@
 		7EF1CB1A2BAE6C6C000E2A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF1CB192BAE6C6C000E2A70 /* Assets.xcassets */; };
 		7EF1CB1D2BAE6C6C000E2A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF1CB1B2BAE6C6C000E2A70 /* LaunchScreen.storyboard */; };
 		7EF1CB412BAE891F000E2A70 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF1CB402BAE891F000E2A70 /* FeedViewController.swift */; };
+		7EF1CB432BAE8BC7000E2A70 /* FeedImageViewModel+PrototypeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF1CB422BAE8BC7000E2A70 /* FeedImageViewModel+PrototypeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7EF1CB1C2BAE6C6C000E2A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EF1CB1E2BAE6C6C000E2A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EF1CB402BAE891F000E2A70 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		7EF1CB422BAE8BC7000E2A70 /* FeedImageViewModel+PrototypeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageViewModel+PrototypeData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,6 @@
 		7EF1CB042BAE6C6A000E2A70 = {
 			isa = PBXGroup;
 			children = (
-				7EF1CB402BAE891F000E2A70 /* FeedViewController.swift */,
 				7EF1CB0F2BAE6C6A000E2A70 /* Prototype */,
 				7EF1CB0E2BAE6C6A000E2A70 /* Products */,
 			);
@@ -57,12 +58,14 @@
 		7EF1CB0F2BAE6C6A000E2A70 /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				7EF1CB402BAE891F000E2A70 /* FeedViewController.swift */,
 				7EF1CB102BAE6C6A000E2A70 /* AppDelegate.swift */,
 				7EF1CB122BAE6C6A000E2A70 /* SceneDelegate.swift */,
 				7EF1CB162BAE6C6A000E2A70 /* Main.storyboard */,
 				7EF1CB192BAE6C6C000E2A70 /* Assets.xcassets */,
 				7EF1CB1B2BAE6C6C000E2A70 /* LaunchScreen.storyboard */,
 				7EF1CB1E2BAE6C6C000E2A70 /* Info.plist */,
+				7EF1CB422BAE8BC7000E2A70 /* FeedImageViewModel+PrototypeData.swift */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				7EF1CB112BAE6C6A000E2A70 /* AppDelegate.swift in Sources */,
 				7EF1CB412BAE891F000E2A70 /* FeedViewController.swift in Sources */,
+				7EF1CB432BAE8BC7000E2A70 /* FeedImageViewModel+PrototypeData.swift in Sources */,
 				7EF1CB132BAE6C6A000E2A70 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
