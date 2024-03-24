@@ -10,7 +10,29 @@ final class FeedViewController: UITableViewController {
 
     // MARK: - Private Properties
 
-    private let feed = FeedImageViewModel.prototypeFeed
+    private var feed = [FeedImageViewModel]()
+
+    // MARK: - LifeCycle
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        refresh()
+        tableView.setContentOffset(CGPoint(x: 0, y: -tableView.contentInset.top), animated: false)
+    }
+
+    // MARK: - Actions
+    
+    @IBAction func refresh() {
+        refreshControl?.beginRefreshing()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            if self.feed.isEmpty {
+                self.feed = FeedImageViewModel.prototypeFeed
+                self.tableView.reloadData()
+            }
+            self.refreshControl?.endRefreshing()
+        }
+    }
 
     // MARK: - Data Sources Methods
 
